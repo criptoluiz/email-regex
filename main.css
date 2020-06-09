@@ -6,6 +6,7 @@ body {
   color: white;
   font-family: arial;
   font-size: 18px;
+  box-sizing: border-box;
 }
 
 .container {
@@ -26,7 +27,7 @@ body {
 
 input {
   margin: 5vh 0 1vh 0;
-  height: 5vh;
+  height: 7vh;
   width: 20vw;
   padding: 0.75vh 1.5vh;
   border-radius: 5px;
@@ -41,7 +42,7 @@ input:hover {
 
 button {
   margin: auto 1vw;
-  height: 5vh;
+  height: 7vh;
   width: 11vw;
   border-radius: 5px;
   border-style: solid;
