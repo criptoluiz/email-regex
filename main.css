@@ -25,7 +25,7 @@ body {
 }
 
 input {
-  margin: 5vh 0;
+  margin: 5vh 0 1vh 0;
   height: 5vh;
   width: 20vw;
   padding: 0.75vh 1.5vh;
@@ -33,6 +33,10 @@ input {
   border-style: solid;
   background-color: inherit;
   color: white;
+}
+
+input:hover {
+  border-color: white;
 }
 
 button {
@@ -50,4 +54,25 @@ button:hover {
 
 #result {
   visibility: hidden;
+  padding-left: 1.5vh;
+  display: block;
+  margin: 0;
+}
+
+@media (max-width: 800px){
+  .form-container {
+    height: 100vh;
+    max-width: 90vw;
+  }
+
+  input {
+    width: 80vw;
+    height: 5vh;
+  }
+
+  button {
+    width: 50vw;
+    height: 5vh;
+    margin: 2vh 0;
+  }
 }
