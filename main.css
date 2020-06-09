@@ -26,17 +26,19 @@ body {
 
 input {
   margin: 5vh 0;
-  height: 40px;
-  width: 275px;
+  height: 5vh;
+  width: 20vw;
   padding: 0.75vh 1.5vh;
   border-radius: 5px;
   border-style: solid;
+  background-color: inherit;
+  color: white;
 }
 
 button {
   margin: auto 1vw;
-  height: 35px;
-  width: 150px;
+  height: 5vh;
+  width: 11vw;
   border-radius: 5px;
   border-style: solid;
 }
