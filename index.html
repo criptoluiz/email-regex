@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Email Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+      <p>Validar um campo de e-mail para que ele seja aceito somente de provedores gratuitos (Gmail, Outlook e Hotmail), para ele não estar vazio e ser um e-mail válido:</p>
+    <form id="forms" onsubmit="return validate();">
+      <input id="email" type="text" placeholder="Insira um e-mail" name="" value="">
+      <button id="btn" onclick="validate()" type="button" name="button">Validar E-mail</button>
+
+      </div>
+      <label id="result">texto</label>
+    </div>
+    </form>
+
+ <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
